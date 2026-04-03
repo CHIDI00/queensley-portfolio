@@ -26,7 +26,7 @@ export const Navigation = () => {
       <header className=" mx-auto w-full max-w-7xl px-6 md:px-12 py-5 flex justify-between items-center  ">
         <Link
           href="/home"
-          className="text-[#242633] font-bold text-xl tracking-tight z-50"
+          className="text-[#242633] font-light italic  text-xl tracking-tight z-50"
         >
           Queensley Sofuratu
         </Link>
