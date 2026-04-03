@@ -23,7 +23,7 @@ const HeroSection = () => {
             within public service.
           </p>
           <Link
-            href="/thought-leadership/archive"
+            href="/thought_leadership"
             className="mt-8 inline-flex flex-row items-center justify-center bg-[#565555] hover:bg-[#3f3f3f] text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
           >
             <span>Explore Archive</span>

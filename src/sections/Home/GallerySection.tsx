@@ -31,14 +31,14 @@ export const GallerySection = () => {
         Latest Highlights
       </AnimatedText>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[250px] md:auto-rows-[300px] gap-2 md:gap-6 mb-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[200px] md:auto-rows-[300px] gap-2 md:gap-6 mb-12 grid-flow-row-dense">
         {galleryItems.map((item, idx) => (
           <AnimatedText
             delay={0.3 + idx * 0.1}
             key={idx}
             className={`w-full h-full ${
               idx === 1
-                ? "md:col-span-2 md:row-span-2"
+                ? "col-span-2 row-span-1 md:col-span-2 md:row-span-2"
                 : "col-span-1 row-span-1"
             }`}
           >
@@ -54,7 +54,6 @@ export const GallerySection = () => {
                     : "(max-width: 768px) 100vw, 25vw"
                 }
               />
-              {/* Dark overlay and hidden text that fades/slides up on hover */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none flex flex-col justify-end p-6 md:p-8">
                 <h3 className="text-white font-bold text-lg md:text-xl translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                   {item.label}

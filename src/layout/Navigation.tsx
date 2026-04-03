@@ -25,7 +25,7 @@ export const Navigation = () => {
     <div className="w-full flex backdrop-blur-xl border-b border-slate-200 fixed top-0 left-0 right-0 z-50 bg-background">
       <header className=" mx-auto w-full max-w-7xl px-6 md:px-12 py-5 flex justify-between items-center  ">
         <Link
-          href="/"
+          href="/home"
           className="text-[#242633] font-bold text-xl tracking-tight z-50"
         >
           Queensley Sofuratu
@@ -45,45 +45,6 @@ export const Navigation = () => {
             </Link>
           ))}
         </nav>
-
-        {/* Mobile Menu Icon */}
-        {/* <button
-          className="md:hidden z-[1000] text-[#242633] hover:text-[#9e767b] transition-colors"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          aria-label="Toggle Mobile Menu"
-        >
-          {isMobileMenuOpen ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3 12h18M3 6h18M3 18h18"
-              />
-            </svg>
-          )}
-        </button> */}
 
         <button
           onClick={toggleMenu}
