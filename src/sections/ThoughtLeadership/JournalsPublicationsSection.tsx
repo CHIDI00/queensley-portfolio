@@ -69,7 +69,10 @@ const JournalsPublicationsSection = () => {
   });
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-32 flex justify-center bg-[#f7f6f2]">
+    <section
+      id="publication"
+      className="py-20 px-6 md:px-12 lg:px-32 flex justify-center bg-[#f7f6f2]"
+    >
       <div className="max-w-7xl w-full">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6">

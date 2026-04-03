@@ -71,7 +71,7 @@ const page = () => {
 
         {/* Hero Image */}
         <AnimatedText delay={0.3} className="w-full mb-16 md:mb-24">
-          <div className="relative w-full aspect-[21/9] md:aspect-[2.35/1] rounded-2xl overflow-hidden">
+          <div className="relative w-full aspect-[21/15] md:aspect-[2.35/1] rounded-2xl overflow-hidden">
             <Image
               src="/hero-portrait.jpg"
               alt="Queensley Sofuratu Seghosime Portrait"

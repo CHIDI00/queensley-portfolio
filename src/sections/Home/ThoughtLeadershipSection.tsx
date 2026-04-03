@@ -60,7 +60,7 @@ export const ThoughtLeadershipSection = () => {
 
         <AnimatedText delay={0.6}>
           <Link
-            href="/thoughts"
+            href="/thought_leadership#publication"
             className="group flex items-center gap-2 text-sm font-medium text-accent hover:text-[#866266] transition-colors w-max"
           >
             View all publications
