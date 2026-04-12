@@ -70,10 +70,13 @@ const page = () => {
         </AnimatedText>
 
         {/* Hero Image */}
-        <AnimatedText delay={0.3} className="w-full mb-16 md:mb-24">
-          <div className="relative w-full aspect-[21/15] md:aspect-[2.35/1] rounded-2xl overflow-hidden">
+        <AnimatedText
+          delay={0.3}
+          className="lg:hidden flex justify-center items-center w-full mb-16 md:mb-24 bg-[#3a73f8] rounded-xl"
+        >
+          <div className="relative w-full h-[25rem] md:w-[30rem] md:h-[25rem] lg:h-[40rem]  lg:rounded-2xl overflow-hidden ">
             <Image
-              src="/hero-portrait.jpg"
+              src="/qss5.png"
               alt="Queensley Sofuratu Seghosime Portrait"
               fill
               className="object-cover object-top"
@@ -84,37 +87,55 @@ const page = () => {
         </AnimatedText>
 
         {/* Content Sections */}
-        <div className="flex flex-col gap-12 lg:gap-16">
-          {aboutSections.map((section, idx) => (
-            <AnimatedText delay={0.4 + idx * 0.1} key={section.title}>
-              <div className="flex flex-col border-b border-[#E9E8E3] pb-12 lg:pb-16 last:border-b-0 last:pb-0">
-                <h3 className="text-[12px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-6">
-                  {section.title}
+        <div className="flex flex-col md:flex-row gap-12 lg:gap-16">
+          <div className="flex flex-col gap-12 lg:gap-16">
+            {aboutSections.map((section, idx) => (
+              <AnimatedText delay={0.4 + idx * 0.1} key={section.title}>
+                <div className="flex flex-col border-b border-[#E9E8E3] pb-12 lg:pb-16 last:border-b-0 last:pb-0">
+                  <h3 className="text-[12px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-6">
+                    {section.title}
+                  </h3>
+                  <p className="text-[#4c4c4e] text-[15px] md:text-[17px] leading-[1.8] font-normal">
+                    {section.content}
+                  </p>
+                </div>
+              </AnimatedText>
+            ))}
+
+            {/* Credentials Segment */}
+            <AnimatedText delay={1.0}>
+              <div className="flex flex-col mt-4">
+                <h3 className="text-[13px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-8">
+                  PROFESSIONAL CREDENTIALS & MEMBERSHIPS
                 </h3>
-                <p className="text-[#4c4c4e] text-[15px] md:text-[17px] leading-[1.8] font-normal">
-                  {section.content}
-                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {credentials.map((cred, i) => (
+                    <span
+                      key={i}
+                      className="inline-block border border-[#E9E8E3] bg-[#FCFCFA] text-[#4a4c55] text-[12px] px-5 py-2.5 rounded-full font-normal"
+                    >
+                      {cred}
+                    </span>
+                  ))}
+                </div>
               </div>
             </AnimatedText>
-          ))}
+          </div>
 
-          {/* Credentials Segment */}
-          <AnimatedText delay={1.0}>
-            <div className="flex flex-col mt-4">
-              <h3 className="text-[13px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-8">
-                PROFESSIONAL CREDENTIALS & MEMBERSHIPS
-              </h3>
-
-              <div className="flex flex-wrap gap-2">
-                {credentials.map((cred, i) => (
-                  <span
-                    key={i}
-                    className="inline-block border border-[#E9E8E3] bg-[#FCFCFA] text-[#4a4c55] text-[12px] px-5 py-2.5 rounded-full font-normal"
-                  >
-                    {cred}
-                  </span>
-                ))}
-              </div>
+          <AnimatedText
+            delay={0.3}
+            className="hidden lg:flex w-full mb-16 md:mb-24 "
+          >
+            <div className="relative w-full h-[25rem] md:w-[30rem] md:h-[40rem]  rounded-2xl overflow-hidden">
+              <Image
+                src="/qss5.png"
+                alt="Queensley Sofuratu Seghosime Portrait"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 900px"
+                priority
+              />
             </div>
           </AnimatedText>
         </div>
