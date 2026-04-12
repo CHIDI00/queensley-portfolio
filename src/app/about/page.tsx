@@ -48,14 +48,14 @@ const credentials = [
 const page = () => {
   return (
     <main className="min-h-dvh flex flex-col bg-[#FBF9F6] text-[#242633] overflow-x-hidden relative pt-32 pb-24">
-      <div className="w-full max-w-4xl mx-auto px-6 md:px-12 flex flex-col">
+      <div className="w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col">
         {/* Header Segment */}
         <AnimatedText
           delay={0.1}
           as="p"
-          className="text-xs font-bold tracking-[3px] text-[#9E7A7A] uppercase mb-4"
+          className="text-xs font-bold tracking-[3px] text-[#3a73f8] uppercase mb-4"
         >
-          ABOUT
+          ABOUT ME
         </AnimatedText>
 
         <AnimatedText
@@ -88,7 +88,7 @@ const page = () => {
           {aboutSections.map((section, idx) => (
             <AnimatedText delay={0.4 + idx * 0.1} key={section.title}>
               <div className="flex flex-col border-b border-[#E9E8E3] pb-12 lg:pb-16 last:border-b-0 last:pb-0">
-                <h3 className="text-[12px] font-medium tracking-[2px] text-[#9E7A7A] uppercase mb-6">
+                <h3 className="text-[12px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-6">
                   {section.title}
                 </h3>
                 <p className="text-[#4c4c4e] text-[15px] md:text-[17px] leading-[1.8] font-normal">
@@ -101,7 +101,7 @@ const page = () => {
           {/* Credentials Segment */}
           <AnimatedText delay={1.0}>
             <div className="flex flex-col mt-4">
-              <h3 className="text-[13px] font-medium tracking-[2px] text-[#9E7A7A] uppercase mb-8">
+              <h3 className="text-[13px] font-medium tracking-[2px] text-[#3a73f8] uppercase mb-8">
                 PROFESSIONAL CREDENTIALS & MEMBERSHIPS
               </h3>
 

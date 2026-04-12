@@ -6,7 +6,7 @@ import { GallerySection } from "@/sections/Home/GallerySection";
 
 const page = () => {
   return (
-    <main className="min-h-dvh flex flex-col bg-[#FBF9F6] text-[#242633] overflow-x-hidden max-w-7xl mx-auto relative">
+    <main className="min-h-dvh flex flex-col bg-[#FBF9F6] text-[#242633] overflow-x-hidden max-w-[90rem] mx-auto relative">
       <VisionSection />
 
       <CurrentRolesSection />

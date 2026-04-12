@@ -6,19 +6,34 @@ import { AnimatedText } from "@/ui/AnimatedText";
 
 export const GallerySection = () => {
   const galleryItems = [
-    { src: "/hero-portrait.jpg", label: "Executive Symposium 2026" },
-    { src: "/hero-portrait.jpg", label: "ICAN Awards Night" },
-    { src: "/hero-portrait.jpg", label: "Fiscal Policy Panel" },
-    { src: "/hero-portrait.jpg", label: "Mentorship Masterclass" },
-    { src: "/hero-portrait.jpg", label: "Community Outreach" },
+    {
+      src: "/qss2.jpg",
+      label:
+        "FRC Engages Stakeholders in Collaborative Meeting with ICAN and ANAN",
+    },
+    { src: "/Queensley.S.jpg", label: "ICAN Vice President" },
+    {
+      src: "/qss1.jpg",
+      label:
+        "FRC Engages Stakeholders in Collaborative Meeting with ICAN and ANAN",
+    },
+    {
+      src: "/qss3.jpg",
+      label:
+        "Financial Inclusion: FG Signs MoU With 6 Professional Bodies To Train 10m Nigerians",
+    },
+    {
+      src: "/qss4.png",
+      label: "CEO/Head of Advisory Services at Quebaan Professional Services",
+    },
   ];
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 lg:py-16">
+    <section className="w-full max-w-8xl mx-auto px-6 md:px-12 py-12 lg:py-16">
       <AnimatedText
         delay={0.1}
         as="p"
-        className="text-sm font-medium tracking-[3px] text-accent uppercase mb-4"
+        className="text-sm font-medium tracking-[3px] text-[#3a5af8] uppercase mb-4"
       >
         Gallery
       </AnimatedText>
@@ -67,7 +82,7 @@ export const GallerySection = () => {
       <AnimatedText delay={0.7}>
         <Link
           href="/gallery"
-          className="group flex items-center gap-2 text-[14px] font-medium text-accent hover:text-[#866266] transition-colors w-max"
+          className="group flex items-center gap-2 text-[14px] font-medium text-[#3a5af8] hover:text-[#3a5af8] transition-colors w-max"
         >
           View full gallery
           <FaArrowRight className="text-[10px] transform group-hover:translate-x-1 transition-transform" />

@@ -8,19 +8,19 @@ export const ThoughtLeadershipSection = () => {
   const posts = [
     {
       // TODO: Replace with the actual images shown in the design
-      imageSrc: "/hero-portrait.jpg",
+      imageSrc: "/qssintegrity.jpg",
       tag: "Leadership",
       title: "Integrity in Public Financial Management",
       date: "March 2026",
     },
     {
-      imageSrc: "/hero-portrait.jpg",
+      imageSrc: "/image1.png",
       tag: "Policy",
       title: "Tax Reform and Nigeria's Economic Future",
       date: "January 2026",
     },
     {
-      imageSrc: "/hero-portrait.jpg",
+      imageSrc: "/image.png",
       tag: "Mentorship",
       title: "Mentoring the Next Generation of Accountants",
       date: "November 2025",
@@ -28,12 +28,12 @@ export const ThoughtLeadershipSection = () => {
   ];
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 lg:py-16">
+    <section className="w-full max-w-8xl mx-auto px-6 md:px-12 py-12 lg:py-16">
       <div className="border-t border-b border-[#E9E8E3] py-16 lg:py-24">
         <AnimatedText
           delay={0.1}
           as="p"
-          className="text-sm font-medium tracking-[3px] text-accent uppercase mb-4"
+          className="text-sm font-medium tracking-[3px] text-[#3a5af8] uppercase mb-4"
         >
           Thought Leadership
         </AnimatedText>
@@ -46,7 +46,7 @@ export const ThoughtLeadershipSection = () => {
           The Excellence Dialogue
         </AnimatedText>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-12 lg:mb-16">
           {posts.map((post, idx) => (
             <AnimatedText
               delay={0.3 + idx * 0.1}
