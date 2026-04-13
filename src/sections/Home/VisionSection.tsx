@@ -15,11 +15,11 @@ export const VisionSection = () => {
     <section className="relative w-full min-h-screen lg:h-dvh lg:max-h-220 pt-14 md:pt-24 pb-12 lg:py-0 overflow-hidden bg-[#fafafa] flex flex-col justify-center">
       {/* Decorative Background Shapes */}
       <div
-        className="absolute right-0 top-0 w-[30%] h-full bg-[#d8e5f6] z-0 hidden lg:flex items-center justify-center"
+        className="absolute right-0 top-0 w-full lg:w-[30%] h-[400px] lg:h-full bg-[#d8e5f6] z-0 flex items-center justify-center"
         style={{ clipPath: "polygon(25% 0, 90% 0, 90% 60%, 25% 80%)" }}
       ></div>
       <div
-        className="absolute right-[15%] bottom-0 w-[35%] h-[60%] bg-[#dddddd] z-0 hidden lg:block"
+        className="absolute right-0 lg:right-[15%] top-[15%] lg:top-auto lg:bottom-0 w-full lg:w-[35%] h-[237px] lg:h-[60%] bg-[#dddddd] z-0 block"
         style={{ clipPath: "polygon(20% 10%, 70% 0%, 70% 100%, 20% 100%)" }}
       ></div>
 
@@ -109,17 +109,6 @@ export const VisionSection = () => {
         {/* Right Content Area (Image & Stats) */}
         <div className="order-1 lg:order-2 relative mt-0 lg:mt-0 flex-1 flex justify-center lg:justify-start items-end h-[350px] sm:h-[450px] lg:h-full w-full z-10 pb-0">
           <div className="relative w-full h-full max-w-[200px] sm:max-w-[450px] lg:max-w-[550px] xl:max-w-[500px] flex items-end mx-auto lg:mx-0">
-            {/* Mobile Background Shapes (visible only on small screens) */}
-            <div className="absolute inset-0 -z-10 lg:hidden">
-              <div className="absolute top-[10%] right-0 w-[45%] h-[90%] bg-[#d8e5f6]" />
-              <div
-                className="absolute bottom-0 left-[10%] w-[80%] h-[75%] bg-[#dddddd]"
-                style={{
-                  clipPath: "polygon(10% 20%, 90% 0, 100% 100%, 0 100%)",
-                }}
-              />
-            </div>
-
             <Image
               src="/qssimagee.png"
               alt="Queensley Sofuratu"

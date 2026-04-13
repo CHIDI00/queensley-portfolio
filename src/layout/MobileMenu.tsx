@@ -8,7 +8,7 @@ interface MobileMenuProps {
 export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
   return (
     <div
-      className={`fixed inset-0 h-dvh bg-background flex flex-col items-center justify-center pointer-events-auto transition-all duration-500 z-700 md:hidden pb-20 ${
+      className={`fixed inset-0 h-dvh bg-background flex flex-col items-center justify-center pointer-events-auto transition-all duration-500 z-700 lg:hidden pb-20 ${
         isOpen ? "opacity-100 visible" : "opacity-0 invisible"
       }`}
     >
