@@ -9,7 +9,7 @@ export const SocialLinks = () => {
         href="#"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-[#6c6e75] hover:text-[#2A2B33] transition-colors duration-300"
+        className="w-11 h-11 rounded-full bg-[#f0f0f0] flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all"
       >
         <FaLinkedinIn size={18} />
       </a>
@@ -17,7 +17,7 @@ export const SocialLinks = () => {
         href="#"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-[#6c6e75] hover:text-[#2A2B33] transition-colors duration-300"
+        className="w-11 h-11 rounded-full bg-[#f0f0f0] flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all"
       >
         <FaXTwitter size={18} />
       </a>
@@ -25,7 +25,7 @@ export const SocialLinks = () => {
         href="#"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-[#6c6e75] hover:text-[#2A2B33] transition-colors duration-300"
+        className="w-11 h-11 rounded-full bg-[#f0f0f0] flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all"
       >
         <FaInstagram size={18} />
       </a>

@@ -19,7 +19,7 @@ export const VisionSection = () => {
         style={{ clipPath: "polygon(25% 0, 90% 0, 90% 60%, 25% 80%)" }}
       ></div>
       <div
-        className="absolute right-0 lg:right-[15%] top-[15%] lg:top-auto lg:bottom-0 w-full lg:w-[35%] h-[237px] lg:h-[60%] bg-[#dddddd] z-0 block"
+        className="absolute right-16 lg:right-[15%] top-[15%] lg:top-auto lg:bottom-0 w-full lg:w-[35%] h-[237px] lg:h-[60%] bg-[#dddddd] z-0 block"
         style={{ clipPath: "polygon(20% 10%, 70% 0%, 70% 100%, 20% 100%)" }}
       ></div>
 

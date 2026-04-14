@@ -36,9 +36,9 @@ export const CurrentRolesSection = () => {
 
           {/* Large Experience Card */}
           <AnimatedText delay={0.1}>
-            <div className="relative bg-[#ffffff8c] rounded-3xl p-10 py-20 sm:p-16 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col items-center justify-center text-center z-10 w-full mb-8">
+            <div className="relative bg-[#ffffffdb] rounded-3xl p-10 py-20 sm:p-16 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col items-center justify-center text-center z-10 w-full mb-8">
               {/* Soft gradient spot inside card */}
-              <div className="absolute bottom-0 -left-10 w-64 h-64 bg-[#3a5af8] rounded-full blur-2xl -z-10"></div>
+              <div className="absolute bottom-0 -left-10 w-64 h-64 bg-[#3a5af8a1] rounded-full blur-2xl -z-10"></div>
 
               <h3 className="text-6xl sm:text-[90px] font-black text-[#1A1A1A] leading-none mb-6">
                 40<span className="text-[#1A1A1A]">+</span>
