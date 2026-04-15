@@ -30,7 +30,10 @@ export const CurrentRolesSection = () => {
     <section className="w-full max-w-8xl mx-auto px-6 md:px-12 py-16 lg:py-32 overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
         {/* Left Side: Cards UI */}
-        <div className="relative w-full max-w-[500px] mx-auto lg:mx-0 pt-8 pl-8 sm:pt-16 sm:pl-16">
+        <AnimatedText
+          delay={0.05}
+          className="relative w-full max-w-[500px] mx-auto lg:mx-0 pt-8 pl-8 sm:pt-16 sm:pl-16"
+        >
           {/* Background Blob/Circle */}
           {/* <div className="absolute left-0 bottom-10 w-64 h-64 bg-[#3a5af8] rounded-full  z-10"></div> */}
 
@@ -66,10 +69,10 @@ export const CurrentRolesSection = () => {
               </div>
             </div>
           </AnimatedText>
-        </div>
+        </AnimatedText>
 
         {/* Right Side: Text & Roles Content */}
-        <div className="flex flex-col">
+        <AnimatedText delay={0.15} className="flex flex-col">
           <AnimatedText
             delay={0.1}
             as="p"
@@ -132,7 +135,7 @@ export const CurrentRolesSection = () => {
               <GoArrowRight className="text-[18px]" />
             </Link>
           </AnimatedText>
-        </div>
+        </AnimatedText>
       </div>
     </section>
   );

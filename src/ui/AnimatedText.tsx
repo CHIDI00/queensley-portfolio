@@ -3,6 +3,9 @@
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface AnimatedTextProps {
   children: React.ReactNode;
@@ -32,6 +35,12 @@ export const AnimatedText = ({
           duration: 1.2,
           delay,
           ease: "power2.out",
+          scrollTrigger: {
+            trigger: container.current,
+            start: "top 85%",
+            toggleActions: "play none none none",
+            once: true,
+          },
         },
       );
     },
