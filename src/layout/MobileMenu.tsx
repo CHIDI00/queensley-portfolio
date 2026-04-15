@@ -17,7 +17,7 @@ export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
           <Link
             href="/home"
             onClick={closeMenu}
-            className="hover:text-[#9e767b] transition-colors inline-block py-2"
+            className="hover:text-[#3a5af8] transition-colors inline-block py-2"
           >
             Home
           </Link>
@@ -26,7 +26,7 @@ export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
           <Link
             href="/about"
             onClick={closeMenu}
-            className="hover:text-[#9e767b] transition-colors inline-block py-2"
+            className="hover:text-[#3a5af8] transition-colors inline-block py-2"
           >
             About
           </Link>
@@ -35,7 +35,7 @@ export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
           <Link
             href="/thought_leadership"
             onClick={closeMenu}
-            className="hover:text-[#9e767b] transition-colors inline-block py-2 text-center"
+            className="hover:text-[#3a5af8] transition-colors inline-block py-2 text-center"
           >
             Thought Leadership
           </Link>
@@ -44,7 +44,7 @@ export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
           <Link
             href="/gallery"
             onClick={closeMenu}
-            className="hover:text-[#9e767b] transition-colors inline-block py-2"
+            className="hover:text-[#3a5af8] transition-colors inline-block py-2"
           >
             Gallery
           </Link>

@@ -3,12 +3,8 @@ import { AnimatedText } from "@/ui/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
-import {
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-  FaFacebookF,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const VisionSection = () => {
   return (
@@ -65,7 +61,7 @@ export const VisionSection = () => {
           <div className="flex flex-col lg:hidden mt-4 gap-5">
             <div className="flex items-center gap-4">
               <span className="text-[60px] font-bold text-[#1A1A1A] leading-none">
-                25
+                40
               </span>
               <span className="text-[15px] text-[#555] leading-snug w-24 block">
                 Years Of experience
@@ -78,7 +74,7 @@ export const VisionSection = () => {
               </p>
               <div className="flex gap-3">
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/queensleyss"
                   className="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all shadow-sm"
                 >
                   <FaInstagram size={16} />
@@ -90,13 +86,13 @@ export const VisionSection = () => {
                   <FaLinkedinIn size={16} />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://x.com/queensleyss"
                   className="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all shadow-sm"
                 >
-                  <FaTwitter size={16} />
+                  <FaXTwitter size={16} />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.facebook.com/QueensleySS"
                   className="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all shadow-sm"
                 >
                   <FaFacebookF size={16} />

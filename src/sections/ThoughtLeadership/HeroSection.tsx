@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         {/* Left Content */}
         <div className="flex flex-col items-start space-y-6">
-          <span className="text-accent font-medium tracking-[0.15em] text-xs uppercase">
+          <span className="text-[#3a73f8] font-medium tracking-[0.15em] text-xs uppercase">
             Leadership Series
           </span>
           <h1 className="text-5xl md:text-6xl lg:text-[72px] font-medium  text-[#2d2d2d] leading-[1.05] tracking-tight">
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
           <Link
             href="/thought_leadership"
-            className="mt-8 inline-flex flex-row items-center justify-center bg-[#565555] hover:bg-[#3f3f3f] text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
+            className="mt-8 inline-flex flex-row items-center justify-center bg-[#3a73f8] hover:bg-[#3a73f8] text-white font-semibold px-7 py-3 rounded-lg transition-colors duration-200"
           >
             <span>Explore Archive</span>
             <svg
@@ -47,7 +47,7 @@ const HeroSection = () => {
         {/* Right Image */}
         <div className="relative w-full aspect-[3/4] overflow-hidden">
           <Image
-            src="/gallery-award.jpg"
+            src="/Queensley.S.jpg"
             alt="Gallery Award"
             fill
             className="object-cover rounded-sm"

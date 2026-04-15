@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { AnimatedText } from "@/ui/AnimatedText";
+import { ThoughtCard } from "@/ui/ThoughtCard";
 
 const articles = [
   {
@@ -7,7 +9,7 @@ const articles = [
     category: "Leadership",
     title: "Integrity in Public Financial Management",
     date: "March 2026",
-    image: "/gallery-forum.jpg",
+    image: "/qssintegrity.jpg",
     highlighted: false,
   },
   {
@@ -15,7 +17,7 @@ const articles = [
     category: "Policy",
     title: "Tax Reform and Nigeria's Economic Future",
     date: "January 2026",
-    image: "/gallery-conference.jpg",
+    image: "/image.png",
     highlighted: false,
   },
   {
@@ -23,7 +25,7 @@ const articles = [
     category: "Mentorship",
     title: "Mentoring the Next Generation of Accountants",
     date: "November 2025",
-    image: "/gallery-mentoring.jpg",
+    image: "/image1.png",
     highlighted: false,
   },
   {
@@ -31,7 +33,7 @@ const articles = [
     category: "Advocacy",
     title: "Women in Governance: Breaking Barriers",
     date: "September 2025",
-    image: "/hero-portrait.jpg",
+    image: "/image.png",
     highlighted: false,
   },
   {
@@ -39,7 +41,7 @@ const articles = [
     category: "Institutional",
     title: "The Role of ICAN in National Development",
     date: "July 2025",
-    image: "/gallery-award.jpg",
+    image: "/qssintegrity.jpg",
     highlighted: true,
   },
   {
@@ -47,8 +49,29 @@ const articles = [
     category: "Governance",
     title: "Ethics and Accountability in Public Service",
     date: "May 2025",
-    image: "/gallery-forum.jpg",
+    image: "/image.png",
     highlighted: false,
+  },
+];
+
+const posts = [
+  {
+    imageSrc: "/qssintegrity.jpg",
+    tag: "Leadership",
+    title: "Integrity in Public Financial Management",
+    date: "March 2026",
+  },
+  {
+    imageSrc: "/image1.png",
+    tag: "Policy",
+    title: "Tax Reform and Nigeria's Economic Future",
+    date: "January 2026",
+  },
+  {
+    imageSrc: "/image.png",
+    tag: "Mentorship",
+    title: "Mentoring the Next Generation of Accountants",
+    date: "November 2025",
   },
 ];
 
@@ -91,6 +114,18 @@ const Articles = () => {
                 </p>
               </div>
             </div>
+
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-12 lg:mb-16">
+          {posts.map((post, idx) => (
+            <AnimatedText
+              delay={0.3 + idx * 0.1}
+              key={post.title}
+              className="h-full"
+            >
+              <ThoughtCard {...post} />
+            </AnimatedText>
+          ))}
+        </div> */}
           </div>
         ))}
       </div>

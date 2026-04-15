@@ -8,7 +8,7 @@ const filterOptions = ["All", "ICAN", "NIPSS", "OECD", "Excellence Dialogue"];
 const galleryItems = [
   {
     id: 1,
-    src: "/gallery-forum.jpg",
+    src: "/qss2.jpg",
     categories: ["ICAN"],
     title: "Annual General Meeting",
     badge: "ICAN",
@@ -16,23 +16,23 @@ const galleryItems = [
   },
   {
     id: 2,
-    src: "/gallery-award.jpg",
+    src: "/qssimagee.png",
     categories: ["Excellence Dialogue"],
-    title: "Mentoring the Next Generation",
-    badge: "Excellence Dialogue",
+    title: "ICAN's Vice President",
+    badge: "ICAN",
     aspect: "aspect-[4/5]",
   },
   {
     id: 3,
-    src: "/gallery-conference.jpg",
+    src: "/qleadership.jpg",
     categories: ["OECD"],
-    title: "Global Tax Reform Panel",
-    badge: "OECD",
+    title: "Word from the Vice President",
+    badge: "Leadership",
     aspect: "aspect-[5/4]",
   },
   {
     id: 4,
-    src: "/gallery-conference.jpg",
+    src: "/qss1.jpg",
     categories: ["NIPSS"],
     title: "Strategic Policy Session",
     badge: "NIPSS",
@@ -40,34 +40,35 @@ const galleryItems = [
   },
   {
     id: 5,
-    src: "/hero-portrait.jpg",
+    src: "/qss1.jpg",
     categories: ["Excellence Dialogue"],
-    title: "Leadership Symposium",
-    badge: "Excellence Dialogue",
+    title:
+      "FRC Engages Stakeholders in Collaborative Meeting with ICAN and ANAN",
+    badge: "ICAN & ANAN",
     aspect: "aspect-[4/5]",
   },
   {
     id: 6,
-    src: "/gallery-forum.jpg",
+    src: "/qss3.jpg",
     categories: ["ICAN"],
-    title: "Fellowship Award",
-    badge: "ICAN",
+    title: "FG Signs MoU With 6 Professional Bodies To Train 10m Nigerians",
+    badge: "Financial Inclusion",
     aspect: "aspect-[5/4]",
   },
   {
     id: 7,
-    src: "/gallery-mentoring.jpg",
+    src: "/icanelect2.jpg",
     categories: ["Excellence Dialogue"],
-    title: "Youth Mentorship",
-    badge: "Excellence Dialogue",
+    title: "ICAN Elects New President",
+    badge: "ICAN",
     aspect: "aspect-[4/5]",
   },
   {
     id: 8,
-    src: "/gallery-mentoring.jpg",
+    src: "/qtruth.jpg",
     categories: ["NIPSS"],
-    title: "Executive Briefing",
-    badge: "NIPSS",
+    title: "Youth Mentorship",
+    badge: "Mentorship",
     aspect: "aspect-square",
   },
 ];
@@ -84,7 +85,7 @@ const GalleryPage = () => {
       <div className="max-w-6xl mx-auto w-full">
         {/* Header */}
         <div className="mb-10">
-          <span className="text-accent font-medium tracking-[0.15em] text-xs uppercase mb-4 block">
+          <span className="text-[#3a73f8] font-medium tracking-[0.15em] text-xs uppercase mb-4 block">
             Gallery
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold text-[#1a1a1a] tracking-tight mb-8">
@@ -99,7 +100,7 @@ const GalleryPage = () => {
                 onClick={() => setActiveFilter(option)}
                 className={`px-5 py-[6px] text-xs font-semibold rounded-full transition-colors border ${
                   activeFilter === option
-                    ? "bg-[#a47b7b] text-white border-[#a47b7b]"
+                    ? "bg-[#3a73f8] text-white border-[#7b83a4]"
                     : "bg-transparent text-[#6b6b6b] border-[#e0e0e0] hover:border-[#a47b7b] hover:text-[#a47b7b]"
                 }`}
               >
