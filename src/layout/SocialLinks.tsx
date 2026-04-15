@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export const SocialLinks = () => {
   return (
-    <div className="flex items-center justify-center gap-6 mt-12 pb-12">
+    <div className="flex items-center md:justify-start justify-center gap-6 mt-12 pb-12">
       <a
         href="#"
         target="_blank"
