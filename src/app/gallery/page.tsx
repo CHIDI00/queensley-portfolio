@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const filterOptions = ["All", "ICAN", "NIPSS", "OECD", "Excellence Dialogue"];
+const filterOptions = ["All", "ICAN", "Mentorship", "Finance"];
 
 const galleryItems = [
   {
@@ -17,7 +17,7 @@ const galleryItems = [
   {
     id: 2,
     src: "/qssimagee.png",
-    categories: ["Excellence Dialogue"],
+    categories: ["ICAN"],
     title: "ICAN's Vice President",
     badge: "ICAN",
     aspect: "aspect-[4/5]",
@@ -25,9 +25,9 @@ const galleryItems = [
   {
     id: 3,
     src: "/qleadership.jpg",
-    categories: ["OECD"],
+    categories: ["Mentorship"],
     title: "Word from the Vice President",
-    badge: "Leadership",
+    badge: "Mentorship",
     aspect: "aspect-[5/4]",
   },
   {
@@ -41,7 +41,7 @@ const galleryItems = [
   {
     id: 5,
     src: "/qss1.jpg",
-    categories: ["Excellence Dialogue"],
+    categories: ["ICAN"],
     title:
       "FRC Engages Stakeholders in Collaborative Meeting with ICAN and ANAN",
     badge: "ICAN & ANAN",
@@ -50,7 +50,7 @@ const galleryItems = [
   {
     id: 6,
     src: "/qss3.jpg",
-    categories: ["ICAN"],
+    categories: ["Finance"],
     title: "FG Signs MoU With 6 Professional Bodies To Train 10m Nigerians",
     badge: "Financial Inclusion",
     aspect: "aspect-[5/4]",
@@ -58,7 +58,7 @@ const galleryItems = [
   {
     id: 7,
     src: "/icanelect2.jpg",
-    categories: ["Excellence Dialogue"],
+    categories: ["ICAN"],
     title: "ICAN Elects New President",
     badge: "ICAN",
     aspect: "aspect-[4/5]",

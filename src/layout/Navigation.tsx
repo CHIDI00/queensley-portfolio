@@ -94,7 +94,7 @@ export const Navigation = () => {
               <FaTwitter size={14} />
             </Link>
             <Link
-              href="#"
+              href="https://www.facebook.com/QueensleySS"
               className="w-10 h-10 rounded-full bg-[#ede5db] flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all"
             >
               <FaFacebookF size={14} />

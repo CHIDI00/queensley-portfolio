@@ -79,12 +79,12 @@ export const VisionSection = () => {
                 >
                   <FaInstagram size={16} />
                 </Link>
-                <Link
+                {/* <Link
                   href="#"
                   className="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all shadow-sm"
                 >
                   <FaLinkedinIn size={16} />
-                </Link>
+                </Link> */}
                 <Link
                   href="https://x.com/queensleyss"
                   className="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1A1A1A] hover:bg-[#3a5af8] hover:text-white transition-all shadow-sm"
